@@ -85,6 +85,18 @@ export async function GetUserByEmail({
         return null;
     }
 
+    // const user = result.reduce((acc,curr)=>{
+        
+    //     if(!acc.id)
+    //     {
+    //         return {
+    //             ...acc,
+    //             ...curr,
+    //             Permissions:[curr.Permissions],
+    //         };
+    //     }
+    // }
+
    
     return result;
 }
