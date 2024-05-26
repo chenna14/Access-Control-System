@@ -21,6 +21,7 @@ export const applications = pgTable("applications", {
 
 });
 
+
 export const users = pgTable("users", {
     id: uuid("id").defaultRandom().notNull(),
     email: varchar("email", { length: 255 }).notNull(),
